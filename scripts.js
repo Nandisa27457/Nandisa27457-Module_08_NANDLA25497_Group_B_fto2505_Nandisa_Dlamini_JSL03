@@ -21,37 +21,20 @@ const initialTasks = [
   },
 ];
 
-//Ask user for the title, description and status of tasks.
+//Loop for user input of title, description and status
 for (let i = 4; i <= 6; i++) {
-  const tasktitle = prompt(`Enter title for task ${i}:`);
-  const taskdescription = prompt(`Enter description for task ${i}:`);
+  const task1Title = prompt(`Enter title for task ${i}:`);
+  const task1Description = prompt(`Enter description for task ${i}:`);
 
-  //Ask for the status of taks and convert it to lowercase.
-  task1status = "";
-  const task1status = prompt(
+  let task1Status = prompt(
     `Enter status for task ${i} (todo, doing, done):`
   ).toLowerCase();
+
 }
 
-// Keep asking until the user enters a valid status for task 1
-while (
-  task1status !== "todo" &&
-  task1status !== "doing" &&
-  task1status !== "done"
-) {
-  alert("Invalid status. Please enter 'todo', 'doing', or 'done'.");
-  task1status = prompt(`Enter title for task ${i}:`).toLowerCase();
+//creating an object
+let id= "";
+for (id= 0 , id <=6, id++ ){
+  console.log 
 }
 
-//Creating the task object
-const Task = {
-  title: tasktitle,
-  description: taskdescription,
-  status: task1status,
-};
-
-//Push task object into array with all tasks
-
-initialTasks.push(Task);
-
-console.log(initialTasks);
