@@ -43,8 +43,7 @@ const newTask = {
 };
 
 tasks.push(newTask);
-
- 
+```
 
 ## ⚙️ Setup Instructions
 
