@@ -45,3 +45,33 @@ const newTask = {
 tasks.push(newTask);
 
  
+
+## ⚙️ Setup Instructions
+
+Follow these steps to run the project locally:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/js-task-manager.git
+cd js-task-manager
+```
+2. Open the Project in a Code Editor
+Use any code editor like VS Code.
+
+```bash
+code .
+```
+
+3. Run the Project in the Browser
+Since this project uses prompt() and console.log(), you can run it directly in a browser:
+
+- Open the index.html file in your browser.
+
+- Open the browser console (F12 or right-click → Inspect → Console).
+
+- Follow the prompts and view the results in the console.
+
+✅ Make sure index.html properly links to your script.js file using a <script src="script.js"></script> tag before the closing </body>.
+
+
